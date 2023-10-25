@@ -1,0 +1,48 @@
+[
+        
+    {
+        "nome": "Jean",
+        "sobrenome": "Viana",
+        "empresa": "ABC",
+        "pais": "Brasil",
+        "rua" : "Rua Madeira",
+        "numero" : "1577",
+        "cidade" : "Parintins",
+        "estado" : "Amazonas",
+        "cep" : "69080-155",
+        "telefone" : "(92)991919191",
+        "email" : "jean@teste.com"
+        
+        
+    },
+
+    {
+        "nome": "Jaiza",
+        "sobrenome": "Viana",
+        "empresa": "DRF",
+        "pais": "Brasil",
+        "rua" : "Rua olaria",
+        "numero" : "1577",
+        "cidade" : "Coari",
+        "estado" : "Amazonas",
+        "cep" : "69080-155",
+        "telefone" : "(92)991919191",
+        "email" : "Jaiza@teste.com"
+
+    },
+
+    {
+        "nome": "Janaina",
+        "sobrenome": "Viana",
+        "empresa": "Moto",
+        "pais": "Brasil",
+        "rua" : "Rua sem saida",
+        "numero" : "615",
+        "cidade" : "EUA",
+        "estado" : "Amazonas",
+        "cep" : "69080-155",
+        "telefone" : "(92)991919191",
+        "email" : "Janaina@teste.com"
+
+    }
+]
