@@ -4,7 +4,7 @@ describe('Funcionalidade da pagina de produto', () => {
     beforeEach(() => {
         cy.visit('produtos/')
     });
-    it.only('Deve selecionar um produto da lista', () => {
+    it('Deve selecionar um produto da lista', () => {
         cy.get('div[class*="product-block grid"]')
         //.first()
         //.last()
