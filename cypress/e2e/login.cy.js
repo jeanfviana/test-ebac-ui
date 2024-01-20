@@ -58,7 +58,7 @@ context('Funcionalidade login', () => {
         cy.get('#password').type('teste@teste.co')
         cy.get('.woocommerce-form > .button').click()
 
-        cy.get('.woocommerce-error').should('contain', 'a senha fornecida para o e-mail')
+        cy.get('.woocommerce-error').should('contain', 'A senha fornecida para o e-mail')
 
     });
 

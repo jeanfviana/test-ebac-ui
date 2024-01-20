@@ -9,7 +9,7 @@ describe('Funcionalidade da pagina de produto', () => {
         //.first()
         //.last()
         //.eq(3)
-        .contains('Beaumont Summit Kit')
+        .contains('Aero Daily Fitness Tee')
         .click()
     });
 
@@ -38,9 +38,9 @@ describe('Funcionalidade da pagina de produto', () => {
     it('Deve adicionar produto com comando customizado', () => {
         var quantidade = 3
 
-        cy.addProdutos('Beaumont Summit Kit', 'S', 'Red', quantidade)
+        cy.addProdutos('Aero Daily Fitness Tee', 'S', 'Black', quantidade)
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain', quantidade)
-        cy.get('.woocommerce-message').should('contain', quantidade + ' × “Beaumont Summit Kit” foram adicionados no seu carrinho.')
+        cy.get('.woocommerce-message').should('contain', quantidade + ' × “Aero Daily Fitness Tee” foram adicionados no seu carrinho.')
     });
 
 
